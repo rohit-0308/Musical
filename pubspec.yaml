@@ -27,6 +27,7 @@ flutter:
   assets:
     - assets/songs/
     - assets/files/
+    - assets/thumbnails/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

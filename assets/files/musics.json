@@ -2,7 +2,7 @@
     "musics" : [
         {
             "title": "Awaara",
-            "thumnail": "",
+            "thumnail": "assets/thumbnails/Awaara.jpg",
             "path": "assets/songs/Awaara.mp3",
             "artist": "MUkesh",
             "movie": "Alone"

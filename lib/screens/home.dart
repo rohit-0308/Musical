@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:musical/model/musics.dart';
+import 'package:musical/widgets/songList.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,14 +13,13 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     loadData();
   }
 
   loadData() async {
     await Future.delayed(Duration(seconds: 2));
-    final musicJson = await rootBundle.loadString("assets/files/music.json");
+    final musicJson = await rootBundle.loadString("assets/files/musics.json");
     final decodedData = jsonDecode(musicJson);
     var musicsData = decodedData["musics"];
     CatalogMusic.songs = List.from(musicsData)
@@ -30,6 +30,17 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        children: [
+          if (CatalogMusic.songs != null && CatalogMusic.songs.isNotEmpty)
+            SongsList()
+          else
+            Center(
+              child: CircularProgressIndicator(),
+            )
+        ],
+      ),
+    );
   }
 }
