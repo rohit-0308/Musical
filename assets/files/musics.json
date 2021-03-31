@@ -1,0 +1,88 @@
+{
+    "musics" : [
+        {
+            "title": "Awaara",
+            "thumnail": "",
+            "path": "assets/songs/Awaara.mp3",
+            "artist": "MUkesh",
+            "movie": "Alone"
+        },
+        {
+            "title": "Dilbara",
+            "thumnail": "",
+            "path": "assets/songs/Dilbara.mp3",
+            "artist": "Sachet Tandon & Parampara Thakur",
+            "movie": "Pati Patni Aur Woh"
+        },
+        {
+            "title": "Galliyan",
+            "thumnail": "",
+            "path": "assets/songs/Galliyan.mp3",
+            "artist": "Ankit Tiwari",
+            "movie": "Ek Villian"
+        },
+        {
+            "title": "Ji Huzoori",
+            "thumnail": "",
+            "path": "assets/songs/Ji Huzoori.mp3",
+            "artist": "Mithoon & Deepali Kishore",
+            "movie": "Ki & Ka"
+        },
+        {
+            "title": "Judaai",
+            "thumnail": "",
+            "path": "assets/songs/Judaai.mp3",
+            "artist": "Arijit Singh & Rekha Bhardwaj",
+            "movie": "Badlapur"
+        },
+        {
+            "title": "Kya Tujhe Ab Ye Dil Bataye",
+            "thumnail": "",
+            "path": "assets/songs/Kya Tujhe Ab Ye Dil Bataye.mp3",
+            "artist": "Falak Shabir",
+            "movie": "Sanam Re"
+        },
+        {
+            "title": "Mujhko Barsaat Bana Lo",
+            "thumnail": "",
+            "path": "assets/songs/Mujhko Barsaat Bana Lo.mp3",
+            "artist": "Armaan Malik",
+            "movie": "Junooniyat"
+        },
+        {
+            "title": "Naam E Wafa",
+            "thumnail": "",
+            "path": "assets/songs/Naam E Wafa.mp3",
+            "artist": "Tulsi Kumar & Farhan Saeed",
+            "movie": ""
+        },
+        {
+            "title": "Naino Ki Toh Baat",
+            "thumnail": "",
+            "path": "assets/songs/Naino Ki Toh Baat.mp3",
+            "artist": "Altaf Sayyed",
+            "movie": "Unknown"
+        },
+        {
+            "title": "Ride It",
+            "thumnail": "",
+            "path": "assets/songs/Ride It.mp3",
+            "artist": "Jay Sean",
+            "movie": "Album"
+        },
+        {
+            "title": "Shayad",
+            "thumnail": "",
+            "path": "assets/songs/Shayad.mp3",
+            "artist": "Arijit Singh",
+            "movie": "Love Aaj Kal"
+        },
+        {
+            "title": "Tu Mera Dil",
+            "thumnail": "",
+            "path": "assets/songs/Tu Mera Dil.mp3",
+            "artist": "Falak Shabir",
+            "movie": "Album"
+        }
+    ]
+}
